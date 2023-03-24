@@ -1,0 +1,288 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,600,400italic);
+
+
+*{
+  font-family:verdana;
+  margin: 0;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  
+
+}
+.wel{
+  font-size: 75;
+  text-align: left;
+
+  color: rgba(35, 27, 8, 0.619);
+}
+
+body {
+  background-image: url("bg.jpg");
+  /* background: linear-gradient(135deg , #e3e3e3, #fc0000); */
+  border-radius: 50px;
+  font-size: 20;
+  background-position: fit;
+  background-repeat: no-repeat, repeat;
+  /* height:50%;
+  width:50% */
+  
+}
+
+
+.heading {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 2%;
+} 
+
+ label[type="text"]{
+  color: blue;
+  width:25%;
+ }
+
+.txt{
+  width:25%;
+}
+
+
+.container {
+  max-width: 75%;
+  width: 75%; 
+  margin: 70px auto;
+  position: center;
+}
+
+
+button {
+
+  padding:8px;
+  border:55px;
+  background-color:#ffffff;
+  color: linear-gradient(135deg , #ebdc0d, #9b59b6);
+  font-weight:500; 
+  height:37px;
+  border-radius:8px;
+  width:31%;
+  box-shadow: 1px 1px 10px rgb(0, 0, 0);
+}
+
+button[type="button1"]:hover{
+  font-family: 'Montserrat', sans-serif; 
+  background-color: #05e73e;
+ }
+ button[type="button2"]:hover{
+  font-family: 'Montserrat', sans-serif; 
+  background-color: #f60808;
+ }
+ 
+ button[type="button3"]:hover{
+  font-family: 'Montserrat', sans-serif; 
+  background-color: #05cde7;
+ }
+ 
+ input[type=radio] {
+  border: 0px;
+  width: 10%;
+  height: 1.7em;
+}
+
+ form {
+  padding:20px;
+  border: 7px  ;
+  border-radius : 0px;
+  box-shadow: 3px 3px 10px rgb(0, 0, 0);
+  color:white;
+
+}
+
+input[type=text]{
+  height:50px;
+  width: 600px;
+}
+/*  
+ 
+*{
+  font-family:verdana;
+}
+input[type=text] {
+  padding: 10px;
+}
+
+input[type=text] {
+  padding:10px;
+  margin:15px 0; 
+}
+h1{
+  font-size: 25;
+}
+
+
+*,*::before, *::after {
+  margin: 3px;
+  padding:1px;
+  box-sizing:border-box;
+}
+
+
+
+
+
+
+body {
+  margin:  100px;
+  background: linear-gradient(135deg , #ebdc0d, #9b59b6);
+}
+
+
+form {
+
+  justify-content:auto;
+  align-items:auto;
+  margin : 10px;
+}
+
+
+.form-fields, .input-container{
+  display:auto;
+}
+
+
+
+*/
+
+
+ /*
+ input[type="text"] {
+  width: 150px;
+  display: block;
+  margin-bottom: 10px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  box-shadow: 2px 3px 7px rgb(0, 0, 0);
+} */
+
+/* input[type="radio"]
+{
+  
+  
+  border-radius: 9px;
+  /* left:2%; */
+  /* top:25%; */
+  /* width:10%; 
+  height:25px; */
+ /*  */
+
+/* .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #cb0101;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+} */
+
+
+
+
+/* .border-customized-input {
+  border: 2px solid #eee;
+}
+.border-removed-input {
+  border: 0;
+} */
+
+/* .border-bottom-input {
+  border:8;
+  border-bottom:10px solid #eee; 
+} */
+
+/* * {
+  box-sizing: border-box;
+} */
+/* input {
+  display:block;
+  width:auto;
+  margin:auto;
+  padding:auto;
+} */
+
+/* button {
+  margin:40px;
+} */
+
+/* button {
+
+  remove default behavior 
+  appearance:none;
+  -webkit-appearance:caret;
+
+} */
+
+/* body {
+  margin:100px;
+  background-color: #4c7d70;
+} */
+/* textarea {
+  width:100%;
+  resize: horizontal;
+  padding:15px;
+  border-radius:15px;
+  border:0;
+  box-shadow:4px 4px 10px rgba(0,0,0,0.06);
+  height: 10px;
+}
+input, textarea {
+  font-family:inherit;
+  font-size: inherit;
+} */
+
+
+/* body {
+  margin:150px;
+  font-size:15px;
+} */
+
+/* container */
+/* label {
+  position: auto; 
+  padding: left 500px;
+  cursor: auto;
+} */
+
+/* 
+label span {
+  position: absolute;
+ 
+  top:0;
+  left:0;
+  width:250px; 
+  height:20px;
+  background-color: #ddd;
+  transition: .3s background-color; /* slight transition */
+/* } */ 
+
+/* label span:after {
+  content: "";
+  position: absolute;
+  display: none;
+  
+   check icon 
+  /left: 6px;
+  top: 2px;
+  width: 4px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  transform: rotate(45deg);
+}   */
+/* /* */
+
+/* label input:checked ~ span {
+  background-color: #2a94be;
+}
+label input:checked ~ span:after {
+  display:block;
+}  */

@@ -1,0 +1,79 @@
+<html>
+<head>
+<link rel="stylesheet" href = "style.css">
+<meta name = "viewport" content= "width=device-width, initial-scale=1">
+</head>
+
+<body>
+  <label class = "wel"> WELCOME TO OUR PAGE </label>
+  <br><br><br><br><br><br><br><br><br>
+  <main class = "container">
+    <form id = "form" name = "detail">
+
+    <div class="heading">
+      <p>INPUT FORM</p><br><br><br>
+    </div>
+<div class >
+  <!-- Name*: -->
+  <div class="txt"><div>
+     <input type = "text" id = "fname" placeholder="Enter your Name"><br><br>
+     
+     <!-- Email*: -->
+
+     <input type = "text" id = "mail" placeholder="Enter Your Email"><br><br>
+     
+
+      <!-- Mobile number*:  -->
+      <input type = "text" id = "num" placeholder="Enter Your Mobile Number"><br><br><br>
+    </div>
+   </div>
+
+  <label  for = "Gender">Gender:</label><br><br>
+  <input type = "radio" id = "gender" name = "gender" value ="Male">
+  <label for="male">Male</label><br><br>
+  <input type = "radio" id = "gender" name = "gender" value ="Female">
+  <label for="Female">Female</label><br><br><br><br>
+ 
+  Please enter your location: <br><br>
+  <input type = "text" id = "loca" name = "location" placeholder = "Your Current Location"><br><br>
+  <br><br>
+  <div class="form-control">
+    Your current qualification:
+    <select id="degree" name="degree">
+        <option value="selected">Select Option</option>
+        <option value="M.Tech">M.Tech</option>
+        <option value="B.Tech">B.Tech</option>
+        <option value="MBA">MBA</option>
+        <option value="BCA">BCA</option>
+    </select>
+</div><br><br>
+<br>
+
+<label> Select your Language:</label>
+<select name="lange" id="lang">
+  <option value="Selected">Select Option</option>
+  <option value="Hindi">Hindi</option>
+  <option value="ENGLISH">English</option>
+  <option value="Punjabi">Punjabi</option>
+  <option value="Urdu">Urdu</option>
+</select><br>
+
+<br><br>
+<br><br>
+   <button name="submit" type="button1" onclick="callvalue">SUBMIT</button>
+  <button name = "clear" onclick="clearAll" type="button2" id="clear">CLEAR</button>
+  <button name = "show" type="button3" id="show">SHOW</button>
+  <label id = "n1"></label>
+    <br><br>
+</div>
+</form>
+</main>
+
+<script src ="./script1.js"></script>
+
+</body>
+</html>
+
+<!-- array of objects on local storage -->
+
+
